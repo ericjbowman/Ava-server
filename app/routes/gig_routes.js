@@ -29,7 +29,7 @@ const router = express.Router()
 
 // INDEX
 // GET /gigs
-router.get('/gigs', requireToken, (req, res, next) => {
+router.get('/gigs', (req, res, next) => {
   Gig.find()
     .then(gigs => {
       // `gigs` will be an array of Mongoose documents

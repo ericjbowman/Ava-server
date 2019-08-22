@@ -1,6 +1,8 @@
-TEXT="They're no ordinary Ordmanettes!"
-TITLE="Ava and Ordmanettes"
-DATE="Friday, December 1"
+TEXT="A Holiday extravaganza!"
+TITLE="Ava Saves Christmas"
+DATE="Friday, December 24"
+TIME="7:00-7:30"
+PLACE="Gotham City"
 TOKEN="7fcffa80c4d592e97961a4b7338ddbd7"
 
 API="http://localhost:4741"
@@ -15,7 +17,9 @@ curl "${API}${URL_PATH}" \
     "gig": {
       "text": "'"${TEXT}"'",
       "title": "'"${TITLE}"'",
-      "date": "'"${DATE}"'"
+      "date": "'"${DATE}"'",
+      "time": "'"${TIME}"'",
+      "place": "'"${PLACE}"'"
     }
   }'
 

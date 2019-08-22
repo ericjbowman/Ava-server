@@ -14,10 +14,12 @@ const gigSchema = new mongoose.Schema({
     required: false
   },
   time: {
-    type: String
+    type: String,
+    required: false
   },
   place: {
-    type: String
+    type: String,
+    required: false
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,

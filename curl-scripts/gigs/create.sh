@@ -1,7 +1,7 @@
-TEXT="Hello world"
-TITLE="Greeting"
-DATE="10-18-2019"
-TOKEN="a9b2e1a8cf069749bc0a942312a2b89a"
+TEXT="They're no ordinary Ordmanettes!"
+TITLE="Ava and Ordmanettes"
+DATE="Friday, December 1"
+TOKEN="7fcffa80c4d592e97961a4b7338ddbd7"
 
 API="http://localhost:4741"
 URL_PATH="/gigs"

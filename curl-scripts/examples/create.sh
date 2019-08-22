@@ -1,9 +1,9 @@
 #!/bin/bash
-TEXT=";alsdkjfalskdjf"
-TITLE="blarpy example"
-TOKEN="a9b2e1a8cf069749bc0a942312a2b89a"
+TEXT="They're no ordinary Ordmanettes!"
+TITLE="Ava and Ordmanettes"
+TOKEN="3bad6f0ecd10e5f7f9433c18adb41b73"
 
-API="http://localhost:4741"
+API="https://mighty-tundra-49432.herokuapp.com"
 URL_PATH="/examples"
 
 curl "${API}${URL_PATH}" \

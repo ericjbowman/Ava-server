@@ -97,12 +97,12 @@ router.patch('/gigs/:id', requireToken, removeBlanks, (req, res, next) => {
 
 // DESTROY
 // DELETE /gigs/5a7db6c74d55bc51bdf39793
-router.delete('/gigs/:id', requireToken, (req, res, next) => {
+router.delete('/gigs/:id', (req, res, next) => {
   Gig.findById(req.params.id)
     .then(handle404)
     .then(gig => {
       // throw an error if current user doesn't own `gig`
-      requireOwnership(req, gig)
+      // requireOwnership(req, gig)
       // delete the gig ONLY IF the above didn't throw
       gig.remove()
     })

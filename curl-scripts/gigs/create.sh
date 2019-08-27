@@ -1,11 +1,11 @@
-TEXT="Fasten your seatbelts, hide ya kids, and hide ya wife!"
-TITLE="Ava and the Harlem Globetrotters"
-DATE="Saturday, October 24"
-TIME="8:00-10:00"
-PLACE="Carnegie Hall"
-TOKEN="3a0be2c88a66836cf863bbba13031494"
+TEXT="They're no ordinary Ordmanettes! One night only!"
+TITLE="Ava and the Ordmanettes"
+DATE="Friday, November 1"
+TIME="6:30-8:30"
+PLACE="Sydney Opera House"
+TOKEN="8a0fb859946df2c1409572104798f06b"
 
-API="http://localhost:4741"
+API="https://mighty-tundra-49432.herokuapp.com"
 URL_PATH="/gigs"
 
 curl "${API}${URL_PATH}" \

@@ -3,7 +3,7 @@
 EMAIL=Ava
 PASSWORD=123
 
-API="http://localhost:4741"
+API="https://mighty-tundra-49432.herokuapp.com"
 URL_PATH="/sign-in"
 
 curl "${API}${URL_PATH}" \
